@@ -1,0 +1,81 @@
+.social-share {
+    margin-top: 20px;
+    text-align: center;
+}
+.social-share a, .button {
+    display: inline-block;
+    margin: 10px 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color:#002878;
+    font-weight: bolder;
+}
+.button { background-color: #002878;
+
+}
+.social-share .facebook { background-color: #3b5998; }
+.social-share .twitter { background-color: #00acee; }
+.social-share .pinterest { background-color: #bd081c; }
+.social-share .linkedin { background-color: #0072b1; }
+
+main{
+    width:80%;
+    margin: 0 7%;
+    box-shadow: 0 0 5px #333;
+    padding:10px
+}
+body {
+    
+    background-color: #ffffff;
+    color: #333;
+}
+
+header nav ul li a {
+    color: #3b5998;
+    text-decoration: none;
+}
+
+footer,header {
+    width:99%;
+    background-color: #3b5998;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.contact{
+    display: flex;
+    width: 50%;
+    justify-content:space-between;
+}
+#message{
+    width:100%;
+}
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+    main{
+        width:100%;
+        margin: 0;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .social-share a,.button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
